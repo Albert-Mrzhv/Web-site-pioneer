@@ -150,7 +150,7 @@
   font-weight: 700;
 }
 .main__img-map {
-  background-image: url("/img/map-img.svg");
+  background-image: url("../img/map-img.svg");
   width: 100%;
   height: 715px;
   background-size: cover;
@@ -176,19 +176,19 @@
   margin-bottom: 38px;
 }
 .main__img-jonas {
-  background-image: url("/img/jonas-img.png");
+  background-image: url("../img/jonas-img.png");
   max-width: 370px;
   height: 251px;
   background-size: cover;
 }
 .main__img-greg {
-  background-image: url("/img/greg-img.png");
+  background-image: url("../img/greg-img.png");
   max-width: 370px;
   height: 251px;
   background-size: cover;
 }
 .main__img-rafael {
-  background-image: url("/img/rafael-img.png");
+  background-image: url("../img/rafael-img.png");
   max-width: 370px;
   height: 251px;
   background-size: cover;
