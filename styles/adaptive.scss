@@ -1,0 +1,215 @@
+@media (max-width: 3000px) {
+    .header {
+        &__new-phone-text {
+            display: none;
+        }
+    }
+}
+
+@media (max-width: 1105px) {
+    .header {
+        &__items {
+            display: grid;
+            grid-template-columns: 1fr 1fr 1fr;
+        }
+        &__bottom {
+            justify-content: center;
+        }
+    }
+    .main {
+        &__img-map {
+            height: 615px;
+        }
+    }
+    .footer {
+        height: 400px;
+        &__img {
+            display: none;
+        }
+        &__container {
+            padding: 40px 30px 0 30px;
+            justify-content: center;
+        }
+        &__images-two {
+            display: flex;
+            justify-content: center;
+        }
+        &__img-two {
+            display: block;
+            text-align: center;
+            margin-top: 20px;
+        }
+        
+    }
+}
+
+@media (max-width: 1167px) {
+    .main {
+        &__products-blocks {
+            grid-template-columns: 1fr 1fr;
+        }
+    }
+}
+
+@media (max-width: 887px) {
+    .main {
+        &__block {
+            display: flex;
+            flex-direction: column;
+            align-items: center;
+        }
+        &__title-factory {
+            width: 90%;
+            font-size: 50px;
+            margin: 0;
+        }
+        &__text-company {
+            width: 90%;
+            margin-top: 20px;
+        }
+        &__img-map {
+            height: 515px;
+        }
+        &__title-news {
+            text-align: center;
+            font-size: 38px;
+        }
+        &__news-blocks {
+            flex-direction: column;
+            row-gap: 20px;
+            align-items: center;
+        }
+    }
+}
+
+@media (max-width: 790px) {
+    .main {
+        &__products-blocks {
+            grid-template-columns: 1fr;
+
+        }
+        &__img-map {
+            height: 415px;
+        }
+    }
+}
+
+@media (max-width: 706px) {
+    .header {
+        &__right {
+            display: none;
+        }
+        &__phone-text {
+            display: none;
+        }
+        &__new-phone-text {
+            display: block;
+        }
+        &__phone-text-two {
+            width: 200px;
+            margin: 0 auto;
+        }
+        &__logo {
+            width: 140px;
+        }
+        &__top {
+            padding-bottom: 20px;
+        }
+    }
+    .mobile-navigation {
+        display: block;
+    }
+    .main {
+        &__img-factory {
+            height: 140px;
+        }
+        &__img-human {
+            height: 230px;
+            background-position: -50px;
+        }
+        &__img-car {
+            height: 230px;
+        }
+        &__img-map {
+            height: 415px;
+        }
+    }
+    .footer {
+        height: 680px;
+        &__block {
+            display: block;
+        }
+    }
+}
+
+@media (max-width: 500px) {
+    .main {
+        &__title-factory {
+            font-size: 40px;
+        }
+        &__title-enterprises {
+            font-size: 40px;
+        }
+        &__block-text {
+            flex-direction: column;
+            row-gap: 2px;
+        }
+        &__images-enterprises {
+            flex-direction: column;
+            row-gap: 20px;
+        }
+        &__title-representative {
+            font-size: 28px;
+        }
+        &__img-map {
+            height: 255px;
+        }
+    }
+}
+
+@media (max-width: 450px) {
+    .header {
+        &__items {
+            display: grid;
+            grid-template-columns: 1fr 1fr;
+        }
+        &__logo {
+            width: 120px;
+        }
+    }
+    .main {
+        &__title-factory {
+            font-size: 20px;
+            text-align: center;
+        }
+        &__title-enterprises {
+            font-size: 30px;
+        }
+        &__img-map {
+            height: 205px;
+        }
+    }
+}
+
+@media (max-width: 370px) {
+    .main {
+        &__title-products {
+            font-size: 30px;
+        }
+        &__img-alarm {
+            margin-bottom: 70px;
+        }
+        &__img-sensors {
+            margin-bottom: 150px;
+        }
+        &__img-calibrator {
+            margin-bottom: 110px;
+        }
+        &__img-proofreader {
+            margin-bottom: 120px;
+        }
+        &__img-map {
+            height: 175px;
+        }
+    }
+}

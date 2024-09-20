@@ -1,0 +1,87 @@
+@import url("https://fonts.googleapis.com/css2?family=Source+Sans+3:ital,wght@0,200..900;1,200..900&display=swap");
+* {
+  box-sizing: border-box;
+}
+
+body {
+  padding: 0;
+  margin: 0;
+  font-family: "Source Sans 3", sans-serif;
+  color: #333333;
+}
+
+.header {
+  max-width: 1180px;
+  padding: 28px 20px 0 20px;
+  margin: 0 auto;
+}
+.header__top {
+  display: flex;
+  justify-content: space-between;
+  padding-bottom: 35px;
+}
+.header__right {
+  display: flex;
+  align-items: center;
+  column-gap: 60px;
+}
+.header__text {
+  margin: 0;
+}
+.header__text-link {
+  text-align: right;
+}
+.header__link {
+  font-size: 20px;
+  font-weight: 600;
+  color: #607CE6;
+}
+.header__num {
+  margin: 0;
+}
+.header__text-num {
+  text-align: right;
+}
+.header__img-phone {
+  width: 16px;
+  height: 16px;
+}
+.header__num {
+  font-size: 20px;
+  font-weight: 600;
+  color: #607CE6;
+}
+.header__bottom {
+  display: flex;
+  justify-content: space-between;
+}
+.header__items {
+  display: flex;
+  column-gap: 35px;
+  padding: 0;
+}
+.header__list {
+  list-style-type: none;
+}
+.header__phone-text {
+  display: flex;
+  align-items: center;
+  column-gap: 7px;
+}
+.header__text-bell {
+  font-weight: 400;
+  color: #607CE6;
+  text-transform: uppercase;
+}
+.header__phone-text-two {
+  display: flex;
+  align-items: center;
+  column-gap: 7px;
+}
+.header__text-bell-two {
+  font-weight: 400;
+  color: #607CE6;
+  text-transform: uppercase;
+}
+
+/*# sourceMappingURL=header.css.map */

@@ -1,0 +1,35 @@
+.footer {
+    height: 361px;
+    background-color: #333333;
+    color: #FFFFFF;
+    &__container {
+        display: flex;
+        justify-content: space-between;
+        align-items: flex-start;
+        padding: 55px 53px 0 13px;
+        max-width: 1180px;
+        margin: 0 auto;
+    }
+    &__img-two {
+        display: none;
+    }
+    &__lists {
+        list-style-type: none;
+        padding: 0;
+    }
+    &__list {
+        margin-bottom: 20px;
+    }
+    &__block {
+        display: flex;
+        column-gap: 60px;
+        margin-bottom: 30px;
+    }
+    &__lists-two {
+        width: 155px;
+    }
+    &__text-botton {
+        text-align: center;
+        margin: 0;
+    }
+}

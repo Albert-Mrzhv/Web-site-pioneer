@@ -1,0 +1,14 @@
+{
+  "name": "web-site",
+  "version": "1.0.0",
+  "description": "My web site",
+  "source": "index.html",
+  "scripts": {
+    "scss:start": "sass --style:expanded --watch styles:pubg"
+  },
+  "author": "Albert Mr",
+  "license": "ISC",
+  "dependencies": {
+    "sass": "^1.78.0"
+  }
+}

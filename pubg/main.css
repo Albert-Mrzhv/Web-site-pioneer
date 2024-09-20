@@ -1,0 +1,212 @@
+.main {
+  max-width: 1180px;
+  padding: 28px 20px 0 20px;
+  margin: 0 auto;
+}
+.main__container {
+  margin-bottom: 50px;
+}
+.main__block {
+  display: flex;
+}
+.main__title-factory {
+  width: 580px;
+  font-size: 60px;
+  font-weight: 600;
+}
+.main__text-company {
+  width: 379px;
+  margin-top: 80px;
+}
+.main__img-factory {
+  width: 100%;
+  height: 440px;
+  background-image: url("../img/hero-image.png");
+  background-size: cover;
+  object-fit: cover;
+  background-position: center;
+  background-repeat: no-repeat;
+}
+.main__title-enterprises {
+  font-size: 48px;
+  font-weight: 700;
+  margin: 0 0 20px 0;
+}
+.main__block-text {
+  display: flex;
+  gap: 20px;
+}
+.main__text-enterprises {
+  max-width: 560px;
+}
+.main__images-enterprises {
+  display: flex;
+  column-gap: 20px;
+}
+.main__img-human {
+  background-image: url("../img/human-img.png");
+  width: 100%;
+  height: 280px;
+  background-size: cover;
+}
+.main__img-car {
+  background-image: url("../img/car-img.png");
+  width: 100%;
+  height: 280px;
+  background-size: cover;
+}
+.main__enterprises {
+  margin: 0 0 90px 0;
+}
+.main__products {
+  margin-bottom: 70px;
+}
+.main__title-products {
+  font-size: 48px;
+  font-weight: 700;
+}
+.main__products-blocks {
+  display: grid;
+  grid-template-columns: 1fr 1fr 1fr;
+  column-gap: 20px;
+  row-gap: 25px;
+}
+.main__contain-blocks {
+  margin: 30px;
+}
+.main__products-block {
+  max-width: 380px;
+  height: 435px;
+  background-color: #F5F5F5;
+}
+.main__img-alarm {
+  background-image: url("../img/alarm-img.svg");
+  width: 100%;
+  height: 194px;
+  margin-bottom: 100px;
+  background-repeat: no-repeat;
+}
+.main__img-sensors {
+  background-image: url("../img/sensors-img.svg");
+  width: 100%;
+  height: 112px;
+  margin-bottom: 180px;
+  background-repeat: no-repeat;
+}
+.main__img-regulators {
+  background-image: url("../img/regulators-img.svg");
+  width: 100%;
+  height: 158px;
+  margin-bottom: 135px;
+  background-repeat: no-repeat;
+}
+.main__img-calibrator {
+  background-image: url("../img/calibrator-img.svg");
+  width: 100%;
+  height: 149px;
+  margin-bottom: 140px;
+  background-repeat: no-repeat;
+}
+.main__img-calibrator {
+  background-image: url("../img/calibrator-img.svg");
+  width: 100%;
+  height: 149px;
+  margin-bottom: 150px;
+  background-repeat: no-repeat;
+}
+.main__img-proofreader {
+  background-image: url("../img/proofreader-img.svg");
+  width: 100%;
+  height: 141px;
+  margin-bottom: 150px;
+  background-repeat: no-repeat;
+}
+.main__img-pressure {
+  background-image: url("../img/pressure-img.svg");
+  width: 100%;
+  height: 138px;
+  margin-bottom: 150px;
+  background-repeat: no-repeat;
+}
+.main__products-title {
+  font-size: 28px;
+  font-weight: 600;
+  margin: 0;
+}
+.main__title-icon {
+  display: flex;
+  column-gap: 10px;
+  align-items: center;
+}
+.main__title-bottom {
+  font-size: 20px;
+  color: #607CE6;
+}
+.main__map {
+  margin-bottom: 50px;
+}
+.main__title-representative {
+  font-size: 48px;
+  font-weight: 700;
+}
+.main__img-map {
+  background-image: url("/img/map-img.svg");
+  width: 100%;
+  height: 715px;
+  background-size: cover;
+  background-position: center;
+  background-repeat: no-repeat;
+}
+.main__news {
+  margin-bottom: 80px;
+}
+.main__title-news {
+  font-size: 48px;
+  font-weight: 700;
+}
+.main__news-blocks {
+  display: flex;
+  column-gap: 20px;
+  width: 100%;
+}
+.main__news-block {
+  background-color: #F5F5F5;
+}
+.main__img-text {
+  margin-bottom: 38px;
+}
+.main__img-jonas {
+  background-image: url("/img/jonas-img.png");
+  max-width: 370px;
+  height: 251px;
+  background-size: cover;
+}
+.main__img-greg {
+  background-image: url("/img/greg-img.png");
+  max-width: 370px;
+  height: 251px;
+  background-size: cover;
+}
+.main__img-rafael {
+  background-image: url("/img/rafael-img.png");
+  max-width: 370px;
+  height: 251px;
+  background-size: cover;
+}
+.main__text-news {
+  max-width: 348px;
+  padding: 10px 0 30px 20px;
+}
+.main__bottom-news {
+  display: flex;
+  justify-content: space-between;
+  padding: 0 17px 0 17px;
+}
+.main__news-read {
+  color: #607CE6;
+}
+.main__news-data {
+  color: #888888;
+}
+
+/*# sourceMappingURL=main.css.map */
